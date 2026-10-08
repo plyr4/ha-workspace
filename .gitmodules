@@ -1,0 +1,6 @@
+[submodule "ha-garage"]
+	path = ha-garage
+	url = git@github.com:plyr4/ha-garage.git
+[submodule "ha-laundry"]
+	path = ha-laundry
+	url = git@github.com:plyr4/ha-laundry.git

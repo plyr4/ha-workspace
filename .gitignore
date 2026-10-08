@@ -1,0 +1,17 @@
+# Secrets and private runtime exports must never enter source control.
+.zsensitive
+.zsensitive.*
+**/secrets.yaml
+**/.storage/
+**/zigbee.db*
+**/home-assistant_v2.db*
+*.tar
+*.tar.gz
+*.zip
+*.backup
+ClientList*.csv
+private/
+backups/
+dist/
+node_modules/
+.DS_Store

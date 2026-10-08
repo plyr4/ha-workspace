@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "modules": [
+    {
+      "id": "ha-laundry",
+      "enabled": true,
+      "package": "ha-laundry/package.yaml",
+      "dashboard": "ha-laundry/dashboard.yaml",
+      "title": "Laundry",
+      "icon": "mdi:washing-machine",
+      "dependencies": ["SonoffLAN (HACS integration)", "ApexCharts Card (HACS frontend; register as module resource)"]
+    },
+    {
+      "id": "ha-garage",
+      "enabled": true,
+      "package": "ha-garage/package.yaml",
+      "dashboard": "ha-garage/dashboard.yaml",
+      "title": "Garage",
+      "icon": "mdi:garage",
+      "dependencies": ["ZHA (built-in; existing coordinator and network)", "Third Reality 3RDTS01056Z sensors"]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "home-assistant-workspace",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "check:templates": "node scripts/check-templates.mjs",
+    "test": "node --test",
+    "plan": "node scripts/build.mjs",
+    "build": "node scripts/build.mjs --write",
+    "ha:states": "node scripts/ha-inspect.mjs states",
+    "ha:garage": "node scripts/ha-inspect.mjs garage",
+    "ha:sonoff": "node scripts/ha-inspect.mjs sonoff"
+  },
+  "dependencies": { "yaml": "^2.8.1" }
+}
